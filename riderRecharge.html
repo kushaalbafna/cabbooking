@@ -1,0 +1,84 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  
+  background-image: url('http://localhost/cab/8.jpg');
+
+ 
+  height: 100%; 
+
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+</head>
+</html>
+
+<html>
+<head>
+	<title>VCab</title>
+	<link rel='stylesheet' type='text/css' href='style.css'>
+</head>
+<body>
+<div class='bg'>
+	<div class='header'>
+		<a href='#' style='text-decoration: none;font-size: 35px;color: red;'>VCABS</a>
+		
+    </div>
+<style>
+div.avatar{
+margin-left:47%;
+margin-top:2%;
+}
+div.username{
+margin-top:0%;
+font-size:25;
+font-family:serif;
+}
+div.password{
+margin-top:0%;
+font-size:25;
+font-family:serif;
+}
+button{
+text-align:center;
+color:white;
+background-color:red;
+margin-left:42%;
+margin-top:4%;
+font-size:15;
+font-family:serif;
+border-radius:10px;
+height:8%;
+width:15%;
+}
+</style>	
+	<form method="post" action="riderRecharge.php">
+<p style="margin-left:42%;font-size:30;font-family:serif">Vwallet Recharge</p>
+<div class="avatar">
+     <img src="http://localhost/cab/recharge.png" height="50" width="50" />
+  </div>
+<p style="margin-left:35%">Amount</p>
+<div class="username">
+     <input type="text" placeholder="enter the amount" name="amount"  style="width:30%;height:10%;margin-left:35%;border-radius:4px" required>
+  </div>
+ <p style="margin-left:35%;margin-top:2%">Rider's Mobile Number</p>
+<div class="username">
+     <input type="text" placeholder="enter rider's mobile number" name="mobileNumber"  style="width:30%;height:10%;margin-left:35%;border-radius:4px" required>
+  </div>
+<div class="login">
+	 <button type="submit">Recharge</button>
+  </div>
+</form>
+</div>
+</body>
+</html>
