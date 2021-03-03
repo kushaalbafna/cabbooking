@@ -1,0 +1,22 @@
+ race course,gandhipuram,3.6
+gandhipuram,race course,3.6
+ race course,town hall,4
+town hall,race course,4
+race couse,r s puram,4.3
+r s puram,race course,4.3
+r s puram,town hall,3.7
+town hall,r s puram,3.7
+town hall,gandhipuram,3.7
+gandhipuram,town hall,3.7
+gandhipuram,kuniyamuthur,11
+kuniyamuthur,gandhipuram,11
+kuniyamuthur,race course,9.5
+race couse,kuniyamuthur,9.5
+r s puram,gandhipuram,2.5
+gandhipuram,r s puram,2.5
+r s puram,kuniyamuthur,11
+kuniyamuthur,r s puram,11
+town hall,race course,3
+race couse,town hall,3
+town hall,kuniyamuthur,9.1
+kuniyamuthur,town hall,9.1

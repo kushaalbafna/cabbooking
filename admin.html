@@ -1,0 +1,90 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  
+  background-image: url('http://localhost/cab/8.jpg');
+
+ 
+  height: 100%; 
+
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+</head>
+</html>
+
+
+<html>
+<head>
+	<title>VCab</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class='bg'>
+	<div class="header">
+		<a href="#" style="text-decoration: none;font-size: 35px;color: red;">VCABS</a>
+		<!--<div class="header-one">
+	<a href="driverSignUp.html">Signup</a>
+	<a href="driver.html">Driver</a>
+	<a href="adminDriverVerification.php">Admin</a>
+	<a href="about.html">About</a>
+</div>-->
+</div>
+
+<style>
+div.avatar{
+margin-left:46%;
+margin-top:2%;
+}
+div.username{
+margin-top:0%;
+font-size:25;
+font-family:serif;
+}
+div.password{
+margin-top:0%;
+font-size:25;
+font-family:serif;
+}
+button{
+text-align:center;
+color:white;
+background-color:red;
+margin-left:42%;
+margin-top:4%;
+font-size:15;
+font-family:serif;
+border-radius:10px;
+height:8%;
+width:15%;
+}
+</style>
+<form method="post" action="adminLogin.php">
+<p style="margin-left:46%;font-size:30;font-family:serif">LOGIN</p>
+<div class="avatar">
+     <img src="http://localhost/cab/admin.png" height="100" width="100" />
+  </div>
+<p style="margin-left:35%">User ID</p>
+<div class="username">
+     <input type="text" placeholder="userID" name="userID"  style="width:30%;height:10%;margin-left:35%;border-radius:4px" required>
+  </div>
+ <p style="margin-left:35%;margin-top:2%">Password</p>
+ <div class="password">
+     <input type="password" placeholder="enter your password"  style="width:30%;height:10%;margin-left:35%;border-radius:4px;margin-top:0%" name="password" required>
+  </div>
+<div class="login">
+	 <button type="submit">Login</button>
+  </div>
+</form>
+</div>
+</html>
